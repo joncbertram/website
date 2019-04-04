@@ -1,0 +1,179 @@
+/* Primary Cuteness */
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+/*colors
+(236,122,122,1)=mediumpink
+(79,154,219,1)=mediumblue */
+
+/*Cute Header*/
+header {
+  background-color: white;
+}
+
+/*Cute Body*/
+body {
+  background-color: rgba(236, 122, 122, 1);
+  color: white;
+  font-family: 'Cormorant Upright', serif;
+  font-size: 20px;
+}
+
+header h1 {
+  color: rgba(236, 122, 122, 1);
+}
+
+/* Cute Headings */
+h1, h2 {
+  color: white;
+  font-weight: normal;
+  line-height: 1;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+header h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+header h2 {
+  text-align: center;
+}
+
+/*Cute Paragraphs*/
+p {
+  color: white;
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+/*Cute Lists*/
+ul, ol {
+  margin: 30px 0;
+}
+
+li {
+  padding: 10px;
+}
+
+/* Cute Anchors */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgba(79, 154, 219, 1);
+}
+
+/* a:visited {
+  text-decoration: none;
+  color:black;
+} */
+
+/*Cute Images*/
+img {
+  height: 300px;
+}
+
+/*Cute Sections*/
+
+section {
+  clear: both;
+}
+
+header,
+section,
+footer {
+  padding: 30px 0;
+  /* border: 5px solid rgba(79, 154, 219, 1); */
+}
+
+/*Cute Classes*/
+.title,
+.title2,
+.title3 {
+  font-size: 48px;
+  text-decoration: underline;
+}
+
+.title2,
+.title3 {
+  color: rgba(79,154,219,1);
+  text-align: right;
+}
+
+.title3 {
+  text-align: left;
+}
+
+.container {
+  max-width:900px;
+  margin: 0 auto;
+}
+
+.cuteh2 {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 75px;
+  color: rgba(79, 154, 219, 1);
+}
+
+.cutep1 {
+  color:rgba(79,154,219,1);
+}
+
+.linked {
+  color: rgba(236, 122, 122, 1);
+}
+
+.banner {
+  height: 350px;
+  background-image: url(images/border.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.float1 img {
+  float: right;
+}
+
+.column {
+  width: 50%;
+  float: left;
+}
+.quicklinks {
+  height: 250px;
+  background-image: url(images/quick-link.jpg);
+  background-size: cover;
+  text-align: left;
+}
+
+/*Cute Footer*/
+footer {
+  background-color: white;
+}
+
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat920.cur), auto !important;} /* End http://www.cursors-4u.com */
