@@ -79,7 +79,7 @@ a:link,
 a:focus,
 a:active {
   text-decoration: none;
-  color: blue;
+  color: white;
 }
 
 a:hover {
@@ -168,6 +168,10 @@ footer {
   background-image: url(images/quick-link.jpg);
   background-size: cover;
   text-align: left;
+}
+
+.heading2 {
+  text-align: right;
 }
 
 /*Cute Footer*/
