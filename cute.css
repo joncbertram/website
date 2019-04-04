@@ -159,10 +159,6 @@ footer {
   float: right;
 }
 
-.column {
-  width: 50%;
-  float: left;
-}
 .quicklinks {
   height: 250px;
   background-image: url(images/quick-link.jpg);
