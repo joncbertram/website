@@ -13,7 +13,7 @@
 header {
   background-color: black;
   border: 10px solid transparent;
-  border-image: url(images/border2.png) 20 round;
+  /* border-image: url(images/border2.png) 20 round; */
 }
 
 /*Cute Body*/
@@ -22,7 +22,7 @@ body {
   background-position: fill;
   background-color: red;
   color: black;
-  font-family: 'Cormorant Upright', serif;
+  font-family: 'Arimo', sans-serif;
   font-size: 20px;
 }
 
@@ -88,7 +88,7 @@ a:active {
 
 a:hover {
   text-decoration: underline;
-  color: red;
+  color: green;
 }
 
 /* a:visited {
@@ -113,6 +113,17 @@ section,
 footer {
   padding: 30px 0;
   /* border: 5px solid rgba(79, 154, 219, 1); */
+}
+
+button {
+    background-color: red;
+    border: none;
+    color: freen;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 /*Cute Classes*/
@@ -160,13 +171,13 @@ footer {
   background-size: cover;
 }
 
-.float1{
+.float1 {
   float: right;
   width: 50%;
   padding: 10px;
 }
 
-.float2{
+.float2 {
   float: left;
   width: 50%;
   padding: 10px;
@@ -174,7 +185,7 @@ footer {
 
 .quicklinks {
   margin: 100px left;
-  background-image: url(images/fastpup.jpg);
+  background-image: url(images/strongboy.jpg);
   background-size: contain;
   background-position: 0 auto;
   background-repeat: no-repeat;
@@ -198,11 +209,15 @@ footer {
   text-decoration: underline;
 }
 
+.section1 {
+  text-align: center;
+}
+
 /*Cute Footer*/
 footer {
   background-color: black;
   border: 10px solid transparent;
-  border-image: url(images/border2.png) 20 round;
+  /* border-image: url(images/border2.png) 20 round; */
 }
 
 footer p {
@@ -210,4 +225,4 @@ footer p {
 }
 
 
-/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat920.cur), auto !important;} /* End http://www.cursors-4u.com */
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/cursors/cur-1/cur3.png), auto !important;} /* End http://www.cursors-4u.com */

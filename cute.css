@@ -116,6 +116,18 @@ footer {
   /* border: 5px solid rgba(79, 154, 219, 1); */
 }
 
+/*Cute Buttons*/
+button {
+  background-color: rgba(236, 122, 122, 1);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 /*Cute Classes*/
 .title,
 .title2,
@@ -197,6 +209,10 @@ footer {
   font-size: 30px;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.section1 {
+  text-align: center;
 }
 
 /*Cute Footer*/
