@@ -126,6 +126,10 @@ button {
     font-size: 16px;
 }
 
+nav li{
+  display: inline-block;
+}
+
 /*Cute Classes*/
 .title,
 .title2,
