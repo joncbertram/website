@@ -13,14 +13,18 @@
 /*Cute Header*/
 header {
   background-color: white;
+  border: 10px solid transparent;
+  border-image: url(images/border.png) 20 round;
 }
 
 /*Cute Body*/
 body {
+  /* background-image: url(images/background.png); */
+  background-position: fill;
   background-color: rgba(236, 122, 122, 1);
   color: white;
   font-family: 'Cormorant Upright', serif;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 header h1 {
@@ -100,6 +104,7 @@ img {
 /*Cute Sections*/
 
 section {
+  margin: 20px;
   clear: both;
 }
 
@@ -120,6 +125,7 @@ footer {
 
 .title2,
 .title3 {
+  width: 100%;
   color: rgba(79,154,219,1);
   text-align: right;
 }
@@ -129,7 +135,7 @@ footer {
 }
 
 .container {
-  max-width:900px;
+  max-width:950px;
   margin: 0 auto;
 }
 
@@ -150,24 +156,45 @@ footer {
 
 .banner {
   height: 350px;
-  background-image: url(images/border.jpg);
+  background-image: url(images/bros.jpg);
   background-size: cover;
-  text-align: center;
 }
 
-.float1 img {
+.float1{
   float: right;
+  width: 50%;
+  padding: 20px;
+}
+
+.float2{
+  float: left;
+  width: 50%;
+  padding: 10px;
 }
 
 .quicklinks {
-  height: 250px;
-  background-image: url(images/quick-link.jpg);
-  background-size: cover;
-  text-align: left;
+  margin: 10px;
+  background-image: url(images/fastpup.jpg);
+  background-size: contain;
+  background-position: 450px bottom left;
+  background-repeat: no-repeat;
 }
 
 .heading2 {
   text-align: right;
+}
+
+.paragraph {
+  margin: 20px;
+  text-align: left;
+}
+
+.paragraph-one {
+  margin: 20px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /*Cute Footer*/
