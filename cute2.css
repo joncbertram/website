@@ -115,15 +115,8 @@ footer {
   /* border: 5px solid rgba(79, 154, 219, 1); */
 }
 
-button {
-    background-color: red;
-    border: none;
-    color: freen;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+nav {
+  background-color: green;
 }
 
 nav li{
@@ -215,6 +208,18 @@ nav li{
 
 .section1 {
   text-align: center;
+}
+
+.selected2 {
+  background-color: black;
+}
+
+.selected2 a {
+  color: green;
+}
+
+.selected3 a:hover {
+  color: red;
 }
 
 /*Cute Footer*/
