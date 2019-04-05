@@ -194,6 +194,7 @@ nav li {
 
 .paragraph {
   font-size: 20px;
+  font-weight: bold;
   margin: 20px;
   text-align: left;
 }
